@@ -15,15 +15,15 @@ public class listGUI extends JFrame {
 	
 	public listGUI () {
 		
-		JPanel panel1 = new JPanel (new FlowLayout (FlowLayout.CENTER));
+		JPanel panelb = new JPanel (new FlowLayout (FlowLayout.CENTER));
 		JPanel panel2 = new JPanel (new FlowLayout (FlowLayout.CENTER));
 		JPanel gridPanel = new JPanel (new GridLayout (2,1));
 		JTextArea screen = new JTextArea ();
 		
 		screen.setEditable(false);
 		
-		panel1.add(idLabel);
-		panel1.add(idText);
+		panelb.add(idLabel);
+		panelb.add(idText);
 		panel2.add(add);
 		panel2.add(delete);
 		panel2.add(viewall);
